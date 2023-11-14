@@ -18,7 +18,8 @@ os_name = platform.system()
 
 class GUI:
     def __init__(self):
-        pass
-    
+        self.root = tk.Tk()
+
+        self.root.mainloop()
 
 GUI()
